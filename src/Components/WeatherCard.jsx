@@ -158,13 +158,18 @@ const WeatherCard = ({
         <p className='font-semibold text-lg'>Heat Index</p>
         <p className='text-lg'>{heatIndex ? heatIndex : 'N/A'}</p>
       </div>
+      
       <hr className='bg-slate-600' />
-      <div className='w-full p-4 flex justify-between items-center text-3xl font-semibold'>
-       
-      </div>
-      <div className='w-full p-4 flex justify-center items-center text-3xl font-semibold'>
+      <div className='w-full p-4 flex justify-center items-center text-2xl font-semibold'>
         {conditions}
       </div>
+      <div className='w-full p-4 flex justify-between items-center text-3xl font-semibold'>
+
+        
+      </div>
+      {/* <div className='w-full p-4 flex justify-center items-center text-2xl font-semibold'>
+        {conditions}
+      </div> */}
     </div>
   );
 };
