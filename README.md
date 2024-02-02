@@ -1,0 +1,4 @@
+# Clone the repository: git clone https://github.com/thats-sarthak/weather-app.git
+# Navigate to the project directory: cd `weather-app`
+# Install dependencies: `npm install`
+# Start the application: `npm run dev`
